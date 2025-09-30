@@ -33,7 +33,7 @@ std::ostream &operator<<(std::ostream &os, const Card &card)
     {
         rankStr = "Q";
     }
-    else if (card.rank == 13)
+    else if (card.rank == 13) 
     {
         rankStr = "K";
     }
